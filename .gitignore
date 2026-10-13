@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary scratch images (keep public assets safe)
+siva-cutout.png
+siva-cutout-raw.png
+siva-human-seg.png
+siva-perfect-cutout.png
+arm_orig.png
+arm_seg.png
+hand_region.png
+orig_crop.png
+left_side.png

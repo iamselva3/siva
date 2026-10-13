@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23C6F135'/><text x='50' y='68' font-size='56' font-family='sans-serif' font-weight='900' fill='%23111111' text-anchor='middle'>S</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Siva — AI & Data Science Graduate | Front-End Developer</title>
+    <meta name="title" content="Siva — AI & Data Science Graduate | Front-End Developer" />
+    <meta name="description" content="Portfolio of Siva — AI & Data Science graduate & Front-End Developer based in Chennai, India. Crafting fast, accessible, editorial web experiences with React, Next.js, Python, and modern UI engineering." />
+    <meta name="keywords" content="Siva, Frontend Developer, AI and Data Science, React, Next.js, Tailwind CSS, Python, Chennai, Portfolio" />
+    <meta name="author" content="Siva" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://siva-portfolio.dev/" />
+    <meta property="og:title" content="Siva — AI & Data Science Graduate | Front-End Developer" />
+    <meta property="og:description" content="AI & Data Science graduate turning ideas into fast, accessible, handcrafted interfaces. Based in Chennai, India." />
+    <meta property="og:image" content="/images/siva-cutout.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Siva — AI & Data Science Graduate | Front-End Developer" />
+    <meta property="twitter:description" content="AI & Data Science graduate turning ideas into fast, accessible, handcrafted interfaces. Based in Chennai, India." />
+    <meta property="twitter:image" content="/images/siva-cutout.png" />
+
+    <!-- Theme Initialization (Instant to prevent flash of unstyled theme) -->
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem('siva-theme');
+          const isDark = stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600;700;800;900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Siva",
+      "jobTitle": "Front-End Developer & AI & Data Science Graduate",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "India"
+      },
+      "email": "sivagpoomari@gmail.com",
+      "telephone": "+919514164009",
+      "sameAs": [
+        "https://linkedin.com/in/siva2512",
+        "https://github.com/Siva2512"
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "PSR Engineering College, Sivakasi"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "P.A.C. Ramasamy Raja Polytechnic College"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-paper text-ink-light dark:bg-charcoal dark:text-ink-dark antialiased transition-colors duration-300 selection:bg-lime selection:text-ink-light overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
