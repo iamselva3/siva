@@ -23,13 +23,14 @@ dist-ssr
 *.sln
 *.sw?
 
-# Temporary scratch images (keep public assets safe)
-siva-cutout.png
-siva-cutout-raw.png
-siva-human-seg.png
-siva-perfect-cutout.png
-arm_orig.png
-arm_seg.png
-hand_region.png
-orig_crop.png
-left_side.png
+# Temporary scratch images in root
+/siva-cutout.png
+/siva-cutout-raw.png
+/siva-human-seg.png
+/siva-perfect-cutout.png
+/arm_orig.png
+/arm_seg.png
+/hand_region.png
+/orig_crop.png
+/left_side.png
+!public/images/*
